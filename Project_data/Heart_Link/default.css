@@ -425,6 +425,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   display: inline-block;
   margin-bottom: 1em;
   border-radius: 50%;
+  border: 0.2rem solid white;
 }
 
 /*********************************************************************************/
