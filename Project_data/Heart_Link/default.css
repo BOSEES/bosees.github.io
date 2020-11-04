@@ -573,3 +573,8 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 .team-image {
   max-width: 100%;
 }
+
+.framework__icon {
+  width: 15rem;
+  height: 10rem;
+}
