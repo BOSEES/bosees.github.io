@@ -26,7 +26,7 @@
                 <li class="navbar__menu__item" data-link="#about">About</li>
                 <li class="navbar__menu__item" data-link="#skills">Skills</li>
                 <li class="navbar__menu__item" data-link="#work">My work</li>
-                <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li>
+                <li class="navbar__menu__item" data-link="#Hobbies">Hobbies</li>
                 <li class="navbar__menu__item" data-link="#contact">Contact</li>
             </ul>
         </div>
@@ -42,7 +42,7 @@
             <br />i'm yeoung-il
         </h1>
         <h2 class="home__description">
-            I'm Kim Yeoung-il, a programmer who dreams of commercializing a decentralized block chain.
+            블록체인의 상용화를 꿈꾸는 개발자 김영일 이라고 합니다.
         </h2>
         <button class="home__contact">Contact me</button>
     </section>
@@ -50,8 +50,7 @@
     <section id="about">
         <h1>About me</h1>
         <p>
-            We mainly manage back-end database and write smart contract chain code.
-            Although we know only the most basic level of the front end, we are looking for a full-stack developer.
+            프론트엔드 위주로 배우고 있고 전체적인 프로그래밍의 흐름을 알기 위해 풀스텍을 지향하고 있습니다. 또 블록체인 개발자를 꿈꾸며 블록체인 생태계에 기여하고 싶습니다.
         </p>
         <div class="about__majors">
             <div class="major">
@@ -63,10 +62,10 @@
             </div>
             <div class="major">
                 <div class="major__icon">
-                    <i class="fas fa-file-signature"></i>
+                    <i class="fas fa-dice-d20"></i>
                 </div>
-                <div class="major__title">Smart Contrect</div>
-                <div class="major__description">Solidity</div>
+                <div class="major__title">Block-chain</div>
+                <div class="major__description">Ethereum, Klaytn, Hyperledger</div>
             </div>
             <div class="major">
                 <div class="major__icon">
@@ -81,11 +80,8 @@
     <section id="skills" class="section__container">
         <h1>Skills</h1>
         <h2>Skills & Attribute</h2>
-        <p>I'm very interested in multiple software and I try to understand the underlying principles.
-            I have also experienced the overall structural cycle of the block chain, 
-            and I like to write chain codes, understand smart contract structure, and find problems.
-            Time management and interpersonal relationships are smooth, 
-            and you can adapt to team activities without any problems.
+        <p>저는 여러 소프트웨어에 관심이 많고 근본적인 원리를 이해 하려고 노력합니다. 또 관련 툴과 언어들을 필요 할 때 배우는 것을 지향합니다.
+            그러다보니 어느세 다양한 툴을 경험하게 됬습니다.
         </p>
         <div class="skilltable">
             <div class="skilltable__left">
@@ -129,10 +125,10 @@
                 <div class="skill">
                     <div class="skill__description">
                         <span>GO</span>
-                        <span>50%</span>
+                        <span>30%</span>
                     </div>   
                         <div class="skill__bar">
-                            <div class="skill__value" style="width: 50%; height: 4px; background-color: goldenrod"></div>
+                            <div class="skill__value" style="width: 30%; height: 4px; background-color: goldenrod"></div>
                         </div>
                 </div>
                 <div class="skill">
@@ -182,13 +178,35 @@
             <button class="categories__btn" data-filter="block-chain">Block Chain<span class="categories__count">1</span></button>
         </div>
         <div class="work__projects">
-            <a href="./Project_data/Heart_Link//HeartLink.html" class="project" target="blank" data-type="web">
-                <img class="project__image" src="./Project_data//Heart_Link/images/heartlink.png" alt="project__name">
+            <div class="project" target="blank" data-type="web">
+                <img class="project__image" src="./Project_data//Heart_Link/heartlink.png" alt="project__name">
                 <div class="project__description">
                     <h3>Heart Link</h3>
-                    <span>SNS 크라우스 소싱 마케팅 플랫폼</span>
+                    <h3>SNS 크라우스 소싱 마케팅 플랫폼</h3>
+                    <div class="linkbox">
+                        <div class="linkbox__images">
+                            <a class="linkbox__images-image" href="./Project_data/Heart_Link/발표자료.pdf" target="blank">
+                                <i class="fas fa-file-powerpoint"></i>
+                            </a>
+                        </div>
+                        <div class="linkbox__images">
+                            <a class="linkbox__images-image" href="./Project_data/Heart_Link/HeartLink.pdf" target="blank">
+                                <i class="fas fa-file-pdf"></i>
+                            </a>
+                        </div>
+                        <div class="linkbox__images">
+                            <a class="linkbox__images-image" href="https://github.com/hammer-kaytn/" target="blank">
+                                <i class="fas fa-file-code"></i>
+                            </a>
+                        </div>
+                        <div class="linkbox__images">
+                            <a class="linkbox__images-image" href="https://youtu.be/Aywm8ooaQZo" target="blank">
+                                <i class="fas fa-video"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </a>
+            </div>
             <a href="http://" class="project" target="blank" data-type="web">
                 <img class="project__image" src="./image/ethereum-brands.png" alt="project__name">
                 <div class="project__description">
@@ -227,17 +245,34 @@
         </div>
         </div>
     </section>
-    <!-- Testimonials -->
-    <section id=testimonials>
+    <!-- Hobbies -->
+    <section id=Hobbies>
         <div class="section__container">
-            <h1>Testimonials</h1>
-        <h3>See what they say about me</h3>
-        <div class="testimonials">
-            <div class="testimonial">
-                <img src="./image/CATCATCAT.jfif" alt="" class="testimonial__avatar">
-                <div class="testimonial__speech-bubble">
-                    <p>이 학생 참 잘하네</p>
-                    <p><a href="">고양이선생님</a>/ 길거리출신</p>
+            <h1>Hobbies</h1>
+        <h3>오랫동안 개발을 할려면 취미는 필수.</h3>
+        <div class="Hobbies__box">
+            <div class="Hobbies">
+                <div class="Hobbie">
+                    <img src="./image/사이클.jpeg" alt="" class="Hobbie__avatar">
+                    <div class="textbox">
+                        <h3>사이클링</h3>
+                        <h4>철인 삼종에 한 종목인 사이클을 자주 탑니다. 약간 격한 운동인 만큼 잡 생각이
+                            나지 않아 정신을 맑게 해줍니다. 또 타지역으로 장거리 여행을 하게 되면 여행하는 기분이
+                            간접적으로 들기도 합니다.
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="Hobbies">
+                <div class="Hobbie">
+                    <img src="./image/음악감상.png" alt="" class="Hobbie__avatar">
+                    <div class="textbox">
+                        <h3>음악감삼</h3>
+                        <h4>개발을 장시간 할때 필요한 것은 커피와 고요한 새벽, 음악이라고 생각 합니다. 
+                            저의 집중력을 상승시키는 세가지 요인입니다. 음악감상의 단점은 딱하나. 음향기기가
+                            너무 비쌉니다.
+                        </h4>
+                    </div>
                 </div>
             </div>
         </div>

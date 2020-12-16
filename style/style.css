@@ -386,6 +386,22 @@ section{
   max-height: 100%;
 }
 
+.linkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.linkbox__images{
+  font-size: 2em;
+  margin:10px;
+}
+
+.linkbox__images:hover{
+  font-size: 2em;
+  margin:10px;
+  transform: scale(1.3);
+}
+
 .project__description{
   position: absolute;
   background-color: black;
@@ -421,36 +437,38 @@ transform:translateY(0px);
   background-color: var(--color-dark-white);
 }
 
-/* Testimonial */
+/* Hobbies */
 
-#testimonials{
+#Hobbies{
   background-color: var(--color-light-white);
 }
 
-.testimonials{
+.Hobbies{
   margin:40px;
 }
 
-.testimonial{
+.Hobbie{
   display:flex;
   margin:32px 0px;
 }
 
-.testimonial__avatar{
-  width:150px;
-  height:150px;
-  border-radius: 50%;
+.textbox {
+  width: 25em;
+  background-color:var(--color-dark-white);
+  border-radius: 1em;
+  padding:2em;
+}
+
+.Hobbies__box{
+  display: flex;
+  justify-content: center;
+}
+
+.Hobbie__avatar{
+  width:15em;
+  height:15em;
+  border-radius: 1em;
   margin-right: 20px;
-}
-
-.testimonial__speech-bubble{
-  padding: 18px;
-  background-color: var(--color-dark-white);
-  border-radius: var(--size-border-radius);
-}
-
-.testimonial__speech-bubble a{
-  color:purple;
 }
 
 /* contact */
